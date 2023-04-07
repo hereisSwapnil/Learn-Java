@@ -5,5 +5,6 @@ public class area_of_square{
         System.out.print("Enter the length of side of square: ");
         float side = sc.nextFloat();
         System.out.println("The Area of square of side "+side+" is "+side*side);
+        sc.close();
     }
 }

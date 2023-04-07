@@ -8,5 +8,6 @@ public class area_of_circle{
         // 3.14f - means convert 3.14 into a floating type number
         // As java takes any decimal type number default as double
         System.out.print(3.14f*r*r);
+        sc.close();
     }
 }

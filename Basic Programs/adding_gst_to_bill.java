@@ -11,5 +11,6 @@ public class adding_gst_to_bill{
         // Adding 18% gst
         double price_with_gst = (pencil+pen+eraser)*1.18;
         System.out.println("The total price of the bill with gst is: "+price_with_gst);
+        sc.close();
     }
 }

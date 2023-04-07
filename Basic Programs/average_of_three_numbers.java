@@ -10,5 +10,6 @@ public class average_of_three_numbers{
         float c = sc.nextFloat();
         float avg = (a+b+c)/3;
         System.out.println("The Average of three numbers is: "+ avg);
+        sc.close();
     }
 }

@@ -25,6 +25,8 @@ public class inputs{
         float fl = sc.nextFloat();
         System.out.println(fl);  
 
+        // Scanner class is closed
+        sc.close();
         /*
         next - to input only words before a space
         nextLine - to input a sentences even with spaces

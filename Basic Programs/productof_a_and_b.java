@@ -9,5 +9,6 @@ public class productof_a_and_b{
         System.out.print("\n");
         System.out.print("The product of numbers is : ");
         System.out.print(a*b);
+        sc.close();
     }
 }
