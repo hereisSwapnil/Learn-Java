@@ -3,7 +3,7 @@ import java.util.*;
 public class print_day_name{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the day number : ");
+        System.out.print("Enter a number : ");
         int day = sc.nextInt();
         switch(day){
             case 1: System.out.println("Monday");
