@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class prime_check{
     public static void main(String args[]){
         int n = 97;

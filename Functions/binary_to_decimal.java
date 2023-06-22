@@ -1,4 +1,3 @@
-import java.util.*;
 public class binary_to_decimal{
     public static int bin_dec(int a){
         int pow = 0;

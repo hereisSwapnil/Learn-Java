@@ -1,4 +1,3 @@
-import java.util.*;
 public class largest_in_array{
     public static int LargestInArray(int numbers[]){
         int largest = Integer.MIN_VALUE;

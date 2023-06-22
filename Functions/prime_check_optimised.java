@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class prime_check_optimised{
     public static boolean prime_check(int a){
         for(int i = 2; i<=Math.sqrt(a); i++){

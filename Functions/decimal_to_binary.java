@@ -1,4 +1,3 @@
-import java.util.*;
 public class decimal_to_binary{
     public static int dec_bin(int a){
         int rem, temp;

@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class isPalindrome_func{
     public static boolean isPalindrome(int a){
         int reverse = 0;

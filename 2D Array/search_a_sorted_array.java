@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class search_a_sorted_array {
     public static void main(String args[]) {
         int arr[][] = {{10,20,30,40},

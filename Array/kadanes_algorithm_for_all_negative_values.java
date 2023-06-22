@@ -1,4 +1,3 @@
-import java.util.*;
 public class kadanes_algorithm_for_all_negative_values{
     public static int kadanes_max_sum_subarray(int numbers[]){
         int max = Integer.MIN_VALUE;
