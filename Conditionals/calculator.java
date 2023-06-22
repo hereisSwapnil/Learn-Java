@@ -21,5 +21,6 @@ public class calculator{
                 break;
             default  : System.out.println("Please provide a valid operator");
         }
+        sc.close();
     }
 }

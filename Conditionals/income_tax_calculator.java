@@ -12,5 +12,6 @@ public class income_tax_calculator{
         }else{
             System.out.println("Your Tax is "+income*0.30);
         }
+        sc.close();
     }
 }

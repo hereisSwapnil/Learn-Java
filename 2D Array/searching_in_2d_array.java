@@ -32,5 +32,6 @@ public class searching_in_2d_array{
             System.out.println();
         }
         search_array(matrix,4);
+        sc.close();
     }
 }

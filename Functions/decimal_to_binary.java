@@ -1,6 +1,6 @@
 public class decimal_to_binary{
     public static int dec_bin(int a){
-        int rem, temp;
+        int rem;
         int BinNum = 0, power = 0;
         while(a>0){
             rem = a%2;

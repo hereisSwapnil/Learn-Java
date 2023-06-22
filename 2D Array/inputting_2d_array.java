@@ -17,5 +17,6 @@ public class inputting_2d_array{
             }
             System.out.println();
         }
+        sc.close();
     }
 }

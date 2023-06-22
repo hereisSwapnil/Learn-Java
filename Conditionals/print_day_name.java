@@ -22,5 +22,6 @@ public class print_day_name{
                 break;
             default : System.out.println("Please enter a number between (1-7)");
         }
+        sc.close();
     }
 }

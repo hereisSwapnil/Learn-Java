@@ -10,5 +10,6 @@ public class print_1_to_n{
             System.out.println(counter);
             counter++;
         }
+        sc.close();
     }
 }

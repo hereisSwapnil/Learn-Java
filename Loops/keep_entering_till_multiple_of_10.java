@@ -9,5 +9,6 @@ public class keep_entering_till_multiple_of_10{
             n = sc.nextInt();
         }while((n%10) != 0);
         System.out.println("Hehe! You entered a number which is a multiple of 10.");
+        sc.close();
     }
 }

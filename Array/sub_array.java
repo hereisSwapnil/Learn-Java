@@ -15,7 +15,6 @@ public class sub_array{
     // }
     public static void sub_array(int numbers[]){
         for(int i = 0; i<numbers.length; i++){
-            int curr = numbers[i];
             for(int j = i; j<numbers.length; j++){
                 System.out.print("[");
                 for(int k = i; k<=j; k++){
