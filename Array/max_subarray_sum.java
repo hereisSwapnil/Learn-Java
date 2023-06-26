@@ -1,5 +1,5 @@
 public class max_subarray_sum{
-    public static int max_subarray_sum(int numbers[]){
+    public static int max__subarray__sum(int numbers[]){
         int Sum = 0;
         for(int i = 0; i<numbers.length; i++){
             for(int j = i; j<numbers.length; j++){
@@ -17,6 +17,6 @@ public class max_subarray_sum{
     }
     public static void main(String args[]){
         int numbers[] = {1,-2,6,-1,3};
-        System.out.println("Max Subarray Sum = "+max_subarray_sum(numbers));
+        System.out.println("Max Subarray Sum = "+max__subarray__sum(numbers));
     }
 }

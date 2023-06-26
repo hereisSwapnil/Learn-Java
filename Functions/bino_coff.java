@@ -6,7 +6,7 @@ public class bino_coff {
         }
         return fac;
     }
-    public static int bino_coff (int n, int r){
+    public static int bino__coff (int n, int r){
         int n_ = factorial(n);
         int r_ = factorial(r);
         int n_r = factorial(n-r);
@@ -17,6 +17,6 @@ public class bino_coff {
         int n = 5;
         int r = 2;
         System.out.print("The value of nCr is ");
-        System.out.println(bino_coff(n,r));
+        System.out.println(bino__coff(n,r));
     }
 }

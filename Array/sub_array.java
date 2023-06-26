@@ -13,7 +13,7 @@ public class sub_array{
     //         System.out.println();
     //     }
     // }
-    public static void sub_array(int numbers[]){
+    public static void sub__array(int numbers[]){
         for(int i = 0; i<numbers.length; i++){
             for(int j = i; j<numbers.length; j++){
                 System.out.print("[");
@@ -30,6 +30,6 @@ public class sub_array{
     }
     public static void main(String args[]){
         int numbers[] = {2,4,6,8,10};
-        sub_array(numbers);
+        sub__array(numbers);
     }
 }

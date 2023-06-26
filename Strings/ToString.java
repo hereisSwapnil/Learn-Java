@@ -1,6 +1,6 @@
 public class ToString {
     public static void main(String args[]){
-        int a = 10;
+        // int a = 10;
         Integer b = 10;
         // a cannot be converted into string
         // System.out.println(a.toString());
