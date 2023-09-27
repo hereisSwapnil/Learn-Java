@@ -1,7 +1,7 @@
 public class max_subarray_sum{
     public static int max__subarray__sum(int numbers[]){
         int Sum = 0;
-        for(int i = 0; i<numbers.length; i++){
+        for(int i = 0; i<numbers.length; i++){                                                     
             for(int j = i; j<numbers.length; j++){
                 int temp_sum = 0;
                 for(int k = i; k<=j; k++){
