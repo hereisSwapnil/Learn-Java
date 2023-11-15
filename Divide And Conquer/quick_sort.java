@@ -5,15 +5,23 @@ public class quick_sort {
     int start = lb;
     int end = ub;
     while (start < end) {
-        while(arr[start] <= pivot){
+        while (start <= ub && arr[start] <= pivot) {
             start++;
         }
-        while(arr[end] > pivot){
+        while (arr[end] > pivot) {
             end--;
         }
-        
+        if (start < end) {
+            int temp = arr[end];
+            arr[end] = arr[start];
+            arr[start] = temp;
+        }
     }
-  }
+    arr[lb] = arr[end];
+    arr[end] = pivot;
+    return end;
+}
+
 
   public static void quickSort(int arr[], int lb, int ub) {
     if (ub > lb) {
@@ -31,7 +39,7 @@ public class quick_sort {
 
   public static void main(String[] args) {
     int arr[] = { 6, 3, 9, 8, 2, 5 };
-
+    quickSort(arr, 0, arr.length - 1);
     printArr(arr);
   }
 }
