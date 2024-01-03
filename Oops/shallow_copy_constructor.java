@@ -29,5 +29,6 @@ class Student {
     this.marks = s1.marks;
   }
 
-  Student() {}
+  Student() {
+  }
 }
